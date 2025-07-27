@@ -3,11 +3,11 @@ import { Main } from "@/app/Main"
 import { PageNotFound, ProtectedRoute } from "@/common/components"
 import { useAppSelector } from "@/common/hooks"
 import { Login } from "@/features/auth/ui/Login/Login"
-import { Route, Routes } from "react-router"
+import { Route, Routes } from 'react-router'
 
 export const Path = {
-  Main: "/",
-  Login: "login",
+  Main: "/testDeploy",
+  Login: "/testDeploy/login",
   NotFound: "*",
 } as const
 

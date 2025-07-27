@@ -1,8 +1,7 @@
 import { baseApi } from "@/app/baseApi"
-import { instance } from "@/common/instance"
+import { PAGE_SIZE } from "@/common/constants"
 import type { BaseResponse } from "@/common/types"
 import type { DomainTask, GetTasksResponse, UpdateTaskModel } from "./tasksApi.types"
-import { PAGE_SIZE } from "@/common/constants"
 
 export const tasksApi = baseApi.injectEndpoints({
   endpoints: (build) => ({
